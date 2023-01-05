@@ -24,6 +24,14 @@ li{
     margin: 0 auto;
 }
 
+.header {
+    background-image: url("../image/header/bg-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
 .header_first {
     background-color: #52503B;
 }
@@ -68,3 +76,25 @@ li{
     cursor: pointer;
 }
 
+.header_second-logo{
+    text-align: center;
+    margin-top: 238px;
+}
+
+.header_second-title{
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 34px;
+}
+
+.header_second-text{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 34px;
+}
