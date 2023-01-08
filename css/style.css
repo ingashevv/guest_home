@@ -138,3 +138,12 @@ li {
     margin-top: 41px;
     cursor: pointer;
 }
+
+.main-title__title {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 96px;
+    text-align: center;
+    color: #52503B;
+    margin: 140px 0;
+}
