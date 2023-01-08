@@ -97,7 +97,9 @@ li {
     margin-top: 34px;
 }
 
+.sleeping-arrangements,
 .info {
+
     background-color: #FAF8F0;
     padding-top: 141px;
     padding-bottom: 89px;
@@ -146,4 +148,50 @@ li {
     text-align: center;
     color: #52503B;
     margin: 140px 0;
+}
+
+.sleeping-arrangements__title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #52503B;
+}
+
+
+.sleeping-arrangements__text {
+    margin: 14px auto 30px;
+    width: 554px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #52503B;
+}
+
+.sleeping-arrangements__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sleeping-arrangements__item-icon,
+.sleeping-arrangements__item-title,
+.sleeping-arrangements__item-text {
+    text-align: center;
+}
+
+.sleeping-arrangements__item-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #52503B;
+    margin-top: 12px;
+}
+
+.sleeping-arrangements__item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #52503B;
+    width: 331px;
 }
