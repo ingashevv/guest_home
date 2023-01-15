@@ -195,3 +195,38 @@ li {
     color: #52503B;
     width: 331px;
 }
+
+.benefits__title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #52503B;
+    margin-top: 138px;
+}
+
+.benefits__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #52503B;
+    margin: 14px 0 30px;
+    width: 554px;
+}
+
+.benefits__items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.benefits__item{
+    display: flex;
+}
+
+.benefits__item-icon{
+    margin-right: 16px;
+}
+
+.benefits__item + .benefits__item{
+    margin-bottom: 42px;
+}
