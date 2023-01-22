@@ -18,6 +18,10 @@ li {
     list-style: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 .container {
     width: 1440px;
     margin: 0 auto;
@@ -333,7 +337,7 @@ li {
 }
 
 .come__item-two,
-.come__item-four{
+.come__item-four {
     margin-left: 40px;
 }
 
@@ -343,4 +347,56 @@ li {
     line-height: 20px;
     color: #333333;
     width: 203px;
+}
+
+.booking {
+    background: #FAF8F0;
+}
+
+.booking__inner {
+    text-align: center;
+}
+
+.booking__title {
+    margin: 0 auto;
+    padding-top: 138px;
+    width: 533px;
+    font-size: 32px;
+    line-height: 36px;
+    color: #52503B;
+}
+
+.booking__text {
+    margin: 14px auto 0;
+    width: 514px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #52503B;
+}
+
+.booking__btn {
+    margin-top: 18px;
+    padding-bottom: 100px;
+}
+
+.contact__btn {
+    width: 116px;
+    height: 52px;
+    border: 4px solid #52503B;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #52503B;
+}
+
+.book-now__btn {
+    width: 133px;
+    height: 52px;
+    background: #52503B;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 20px;
 }
